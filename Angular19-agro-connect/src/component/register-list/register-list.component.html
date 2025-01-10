@@ -1,0 +1,7 @@
+<p>Register List Works!</p>
+
+<div *ngFor="let control of formArray.controls; let i = index">
+  <p>{{ control.value.id }}</p>
+  <p>{{ control.value.mobile }}</p> <!-- Display the value of each FormControl -->
+</div>
+

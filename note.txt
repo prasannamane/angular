@@ -2,3 +2,4 @@ npm install -g @angular/cli
 ng version
 ng new my-angular-app
 ng serve
+ng s -o
